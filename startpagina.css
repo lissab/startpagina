@@ -1,0 +1,71 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	background: url(background.png);
+}
+
+.header nav {
+	float: right;
+	margin: 15px 20px 0 0;
+}
+
+.header li {
+	margin-left: 10px;
+	display: inline;
+}
+
+.content {
+	padding-top: 50px;
+	text-align: center;
+}
+
+input {
+	width: 600px;
+	height: 30px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid dimgrey;
+	border-radius: 100px;
+	background: white;
+}
+
+input:focus {
+	outline: none;
+}
+
+.buttons a {
+	color: black;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-decoration: none;
+	padding: 8px 8px 8px 8px;
+	border: 1px solid dimgrey;
+	border-radius: 100px;
+	background: white;
+}
+
+.kader {
+	text-align: center;
+}
+
+.google {
+	width: 450px;
+	height: 150px;
+}
+
+.google:hover {
+	opacity: 1;
+}
+
+.facebook, .youtube, .twitter, .pinterest, .tumblr, .soundcloud, .vimeo, .instagram, .behance, .stumbleupon {
+	border-radius: 100px;
+	width: 115px;
+	height: 115px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+img:hover {
+	opacity: 0.6;
+}
